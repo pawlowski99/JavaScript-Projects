@@ -1,0 +1,72 @@
+body{
+    background-image: url("images/wood.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
+}
+
+hr{
+    border: 1px solid goldenrod;
+}
+
+main{
+    max-width: 480px;
+    background-image: url("images/table.png");
+    background-size: cover;
+    text-align: center;
+    border: goldenrod 2px solid;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#player-cards-el, #dealer-cards-el {
+    display: flex;
+    justify-content: center;
+}
+
+#dealer-cards-el{
+    margin-bottom:50px;
+}
+
+#player-cards-el div, #dealer-cards-el div{
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid goldenrod;
+    font-size: 20px;
+    min-width: 30px;
+    /* min-height: 50px; */
+    float:left;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button {
+    color:#016f32;
+    width: 200px;
+    background-color: goldenrod;
+    border:0;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(194, 143, 13);
+}

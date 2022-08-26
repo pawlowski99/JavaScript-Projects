@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <main>
+        <h1>Blackjack</h1>
+        <hr>
+        <h2 id="dealer-el"></h2>
+        <h3 id="dealer-sum-el"></h3>
+        <div id="dealer-cards-el"></div>
+        <div id="player-cards-el"></div>
+        <h2 id="player-el"></h2>
+        <h3 id="player-sum-el"></h3>
+        <h2 id="message-el"></h2>
+        <button id="new-card-btn" onclick="newCard()">NEW CARD</button>
+        <button id="double-down-btn" onclick="doubleDown()">DOUBLE DOWN</button>
+        <button id="end-round-btn" onclick="endRound()">END ROUND</button>
+        <button id="new-hand-btn" onclick="newHand()">NEW HAND</button>
+        <button id="new-game-btn" onclick="newGame()">NEW GAME</button>
+        <p id="bet-el"></p>
+        <p id="prize-el"></p>
+        <p id="chips-el"></p>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
